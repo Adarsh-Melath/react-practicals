@@ -1,5 +1,7 @@
+import ColorPicker from "./components/usestate/ColorPicker"
 import Counter from "./components/usestate/Counter"
 import Greeting from "./components/usestate/Greeting"
+import ToggleButton from "./components/usestate/ToggleButton"
 
 function App() {
 
@@ -8,7 +10,9 @@ function App() {
     <>
       {/* <Counter></Counter> */}
       {/* <Greeting /> */}
-      <ToggleButton />
+      {/* <ToggleButton  /> */}
+
+      <ColorPicker />
     </>
   )
 }
