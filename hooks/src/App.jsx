@@ -1,3 +1,4 @@
+import CountDown from "./components/useeffect/CountDown"
 import FetchingData from "./components/useeffect/FetchingData"
 import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
@@ -25,7 +26,9 @@ function App() {
       {/*<Pagination /> */}
 
 
-      <FetchingData />
+      {/* <FetchingData /> */}
+
+      {/* <CountDown initalValue={10}></CountDown> */}
     </>
   )
 }
