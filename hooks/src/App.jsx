@@ -1,5 +1,6 @@
 import CountDown from "./components/useeffect/CountDown"
 import FetchingData from "./components/useeffect/FetchingData"
+import ValidationInInput from "./components/useeffect/ValidationInInput"
 import WindowResize from "./components/useeffect/WindowResize"
 import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
@@ -28,10 +29,10 @@ function App() {
 
 
       {/* <FetchingData /> */}
-
       {/* <CountDown initalValue={10}></CountDown> */}
+      {/* <WindowResize /> */}
 
-      <WindowResize />
+      <ValidationInInput />
     </>
   )
 }
