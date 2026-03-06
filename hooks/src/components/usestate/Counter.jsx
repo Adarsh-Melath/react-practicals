@@ -9,7 +9,7 @@ const Counter = () => {
     }
 
     const decrement = () => {
-        setCounter(count => count - 1)
+        setCounter(count => count > 0 ? count - 1 : 0)
     }
 
     return (
