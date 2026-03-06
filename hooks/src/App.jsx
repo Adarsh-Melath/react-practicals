@@ -2,6 +2,7 @@ import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
 import Counter from "./components/usestate/Counter"
 import Greeting from "./components/usestate/Greeting"
+import ImageCarousel from "./components/usestate/ImageCarousle"
 import TodoList from "./components/usestate/TodoList"
 import ToggleButton from "./components/usestate/ToggleButton"
 
@@ -18,7 +19,9 @@ function App() {
 
       {/* <TodoList /> */}
 
-      <CharacterCounter />
+      {/* <CharacterCounter /> */}
+
+      <ImageCarousel />
     </>
   )
 }
