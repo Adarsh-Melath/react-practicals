@@ -1,3 +1,4 @@
+import FetchingData from "./components/useeffect/FetchingData"
 import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
 import Counter from "./components/usestate/Counter"
@@ -16,18 +17,15 @@ function App() {
       {/* <Counter></Counter> */}
       {/* <Greeting /> */}
       {/* <ToggleButton  /> */}
-
       {/* <ColorPicker /> */}
-
       {/* <TodoList /> */}
-
       {/* <CharacterCounter /> */}
-
       {/* <ImageCarousel /> */}
-
       {/* <LoginFormError /> */}
+      {/*<Pagination /> */}
 
-      <Pagination />
+
+      <FetchingData />
     </>
   )
 }
