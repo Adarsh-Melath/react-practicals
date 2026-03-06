@@ -1,6 +1,7 @@
 import ColorPicker from "./components/usestate/ColorPicker"
 import Counter from "./components/usestate/Counter"
 import Greeting from "./components/usestate/Greeting"
+import TodoList from "./components/usestate/TodoList"
 import ToggleButton from "./components/usestate/ToggleButton"
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       {/* <Greeting /> */}
       {/* <ToggleButton  /> */}
 
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+
+      <TodoList />
     </>
   )
 }
