@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       {/* <Counter></Counter> */}
-      <Greeting />
+      {/* <Greeting /> */}
+      <ToggleButton />
     </>
   )
 }
