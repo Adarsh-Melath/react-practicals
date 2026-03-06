@@ -1,3 +1,4 @@
+import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
 import Counter from "./components/usestate/Counter"
 import Greeting from "./components/usestate/Greeting"
@@ -15,7 +16,9 @@ function App() {
 
       {/* <ColorPicker /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
+
+      <CharacterCounter />
     </>
   )
 }
