@@ -1,10 +1,16 @@
+import AuthContextExample from "./components/usecontext/authenticationcontext/AuthContextExample"
+import Component1 from "./components/usecontext/themecontext/Component1"
+import Parent from "./components/usecontext/themetoggle/Parent"
 import CountDown from "./components/useeffect/CountDown"
 import FetchingData from "./components/useeffect/FetchingData"
 import ValidationInInput from "./components/useeffect/ValidationInInput"
 import WindowResize from "./components/useeffect/WindowResize"
+import Counter from "./components/useref/Counter"
+import FocusManagement from "./components/useref/FocusManagement"
+import StopWatch from "./components/useref/StopWatch"
 import CharacterCounter from "./components/usestate/CharacterCounter"
 import ColorPicker from "./components/usestate/ColorPicker"
-import Counter from "./components/usestate/Counter"
+// import Counter from "./components/usestate/Counter"
 import Greeting from "./components/usestate/Greeting"
 import ImageCarousel from "./components/usestate/ImageCarousle"
 import LoginFormError from "./components/usestate/LoginFormError"
@@ -31,8 +37,15 @@ function App() {
       {/* <FetchingData /> */}
       {/* <CountDown initalValue={10}></CountDown> */}
       {/* <WindowResize /> */}
+      {/* <ValidationInInput /> */}
 
-      <ValidationInInput />
+      {/* <FocusManagement  /> */}
+      {/* <StopWatch /> */}
+      {/* <Counter /> */}
+
+      {/* <Component1 /> */}
+      {/* <Parent /> */}
+      <AuthContextExample  />
     </>
   )
 }
