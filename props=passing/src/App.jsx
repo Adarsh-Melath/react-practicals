@@ -1,4 +1,5 @@
-import Parent from "./components/parenttochildcommunication/Parent"
+import Parent from "./components/childtoparentcommunication/Parent"
+
 
 
 function App() {
