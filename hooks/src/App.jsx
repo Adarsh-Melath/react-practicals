@@ -1,3 +1,4 @@
+import SearchResults from "./components/customhooks/SearchResults"
 import ToggleButton from "./components/customhooks/ToggleButton"
 import UserList from "./components/customhooks/UserList"
 import Parent from "./components/usecallback/Parent"
@@ -63,6 +64,8 @@ function App() {
       {/* <ToggleButton /> */}
 
       {/* <UserList /> */}
+
+      {/* <SearchResults /> */}
     </>
   )
 }
