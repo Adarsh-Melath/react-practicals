@@ -1,6 +1,7 @@
+import Parent from "./components/usecallback/Parent"
 import AuthContextExample from "./components/usecontext/authenticationcontext/AuthContextExample"
 import Component1 from "./components/usecontext/themecontext/Component1"
-import Parent from "./components/usecontext/themetoggle/Parent"
+// import Parent from "./components/usecontext/themetoggle/Parent"
 import CountDown from "./components/useeffect/CountDown"
 import FetchingData from "./components/useeffect/FetchingData"
 import ValidationInInput from "./components/useeffect/ValidationInInput"
@@ -48,7 +49,9 @@ function App() {
       {/* <Parent /> */}
       {/* <AuthContextExample  /> */}
 
-      <ExpensiveCalculationExample />
+      {/* <ExpensiveCalculationExample /> */}
+
+      {/* <Parent /> */}
     </>
   )
 }
