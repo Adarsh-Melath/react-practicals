@@ -7,7 +7,8 @@ import FetchingData from "./components/useeffect/FetchingData"
 import ValidationInInput from "./components/useeffect/ValidationInInput"
 import WindowResize from "./components/useeffect/WindowResize"
 import ExpensiveCalculationExample from "./components/usememo/ExpensiveCalculationExample"
-import Counter from "./components/useref/Counter"
+import Counter from "./components/usereducer/Counter"
+// import Counter from "./components/useref/Counter"/
 import FocusManagement from "./components/useref/FocusManagement"
 import StopWatch from "./components/useref/StopWatch"
 import CharacterCounter from "./components/usestate/CharacterCounter"
@@ -52,6 +53,8 @@ function App() {
       {/* <ExpensiveCalculationExample /> */}
 
       {/* <Parent /> */}
+
+      {/* <Counter></Counter> */}
     </>
   )
 }
